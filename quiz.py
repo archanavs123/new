@@ -1,12 +1,10 @@
-print("which is the largest river in kerala")
-a="nila"
-b=["chandragiri","kabani","bavani"]
-print("a.nila" )
-print("b.chandragiri") 
-print("c.kabani")
-print("d.bavani")
-e=input("choose your answer:")
-if(e in b):
-     print("wrong answer") 
-else:
-      print("correct answer")
+a=input("which is the longest river in kerala:")
+a1="Bharathapuzha"
+a2="pambar"
+a3="kabani"
+a4="bhavani"
+if a==a1:
+    print("correct")
+    print ("mark=1")
+else :
+    print ("wrong")
