@@ -1,6 +1,6 @@
-"""
-1.equal or not
-------------"""
+
+#1.equal or not
+#------------
 """a=int(input("Enter First Number : " ))
 b=int(input("Enter Second Number :" ))
 if a==b:
@@ -8,16 +8,16 @@ if a==b:
 else :
     print(a, "and" ,b,"are not equal")   """
      
-"""2.casting your vote
------------------------"""
+#2.casting your vote
+#-----------------------
 """
 a=int(input("Enter The Age : "))
 if a==21:
  print(" congratulations!! you are eligible for casting your vote")
 else:
   print(" sorry (^_^) you are not eligible for casting your vote")"""
-"""3.largest among three
---------------------------"""
+#3.largest among three
+#--------------------------
 """
 x=int(input("Enter First Number:"))
 y=int(input("Enter Second Number:"))
@@ -29,8 +29,8 @@ elif y>x and y>z:
 else :
      print(z,"is the largest number") """
 
-"""4.eligible for admission
-----------------------------"""
+#4.eligible for admission
+#----------------------------
 
 mm=int(input("Enter The marks obtained in mathmatics : "))
 che=int(input("Enter The marks obtained in chemistry : "))
