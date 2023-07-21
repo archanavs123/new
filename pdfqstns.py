@@ -1,4 +1,4 @@
-
+"""
 #1.equal or not
 #------------
 a=int(input("Enter First Number : " ))
@@ -117,7 +117,21 @@ elif a==a7:
 else:
      print("invalid grade")
 
+#Triangle
+#--------
 
-
-
-
+a=int(input("Enter The right side of triangle :"))
+b=int(input("Enter The left side of triangle :"))
+c=int(input("Enter The bottom side of triangle :"))
+if a==b and a==c and b==c:
+    print("the triangle is  equilateral")
+elif a==b or b==c or a==c  :
+    print("the triangle is isosceles")
+else :
+    print("the triangle is scalene")
+     
+     
+a=(input("Enter the data:"))
+print("type of data=",type(a)) 
+       
+         """
