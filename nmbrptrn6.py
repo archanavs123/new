@@ -25,10 +25,21 @@
 # for i in range(65,91):
 #      print(chr(i)) 
 
+# limit=int(input("Enter the raw:"))
+# for i in range(1,limit+1):
+#    for j in range(1,i+1):
+#         print(chr(64+j),end="")
+#    print()    
+
 # A 
 # A B 
 # A B C 
 # A B C D 
+limit=int(input("Enter the raw:"))
+for i in range(1,limit):
+   for j in range():
+        print(chr(64),end="")
+   print()    
 
 
 # A A A A 

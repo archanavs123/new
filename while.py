@@ -9,21 +9,22 @@
 #    else: 
 #     sume=sume+a 
 #     print("sum of even numbers",sume)
-# i+=1    21
+# i+=1    
 
 
 
 
 
 
-a=int(input("enter a number :"))
-sum = 0
-i = 0
-while i<=a:
-   if i%2==0:
-    print("sum of even numbers",sum)
-   else: 
-      print("sum of odd numbers",sum)   
-sum+=i
-i+=1
-    
+
+# # sumeven=0
+# # sumodd=0
+# # a=int(input("enter a number :"))
+# # while a!=0:
+# #     if a%2==0:
+# #      sumeven+=a
+# #      print("sum of even numbers",sumeven)
+# #     else:
+# #       sumodd+=a
+# #       print("sum of even numbers",sumodd)
+
